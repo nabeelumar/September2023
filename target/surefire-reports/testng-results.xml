@@ -2,25 +2,25 @@
 <testng-results retried="1" ignored="1" total="6" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-25T11:46:18 PDT" name="Suite" finished-at="2023-09-25T11:48:10 PDT" duration-ms="111497">
+  <suite started-at="2023-09-25T14:12:46 PDT" name="Suite" finished-at="2023-09-25T14:14:42 PDT" duration-ms="115100">
     <groups>
       <group name="errorHandling">
         <method signature="NegativeScenario.negativeTest()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" name="negativeTest" class="e2eTesting.NegativeScenario"/>
       </group> <!-- errorHandling -->
     </groups>
-    <test started-at="2023-09-25T11:46:18 PDT" name="Test" finished-at="2023-09-25T11:48:10 PDT" duration-ms="111497">
+    <test started-at="2023-09-25T14:12:46 PDT" name="Test" finished-at="2023-09-25T14:14:42 PDT" duration-ms="115100">
       <class name="e2eTesting.NegativeScenario">
-        <test-method is-config="true" signature="launchURL()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" started-at="2023-09-25T11:47:37 PDT" name="launchURL" finished-at="2023-09-25T11:47:50 PDT" duration-ms="13670" status="PASS">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" started-at="2023-09-25T14:14:08 PDT" name="launchURL" finished-at="2023-09-25T14:14:21 PDT" duration-ms="13219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method retried="true" signature="negativeTest()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" started-at="2023-09-25T11:47:50 PDT" name="negativeTest" finished-at="2023-09-25T11:47:53 PDT" duration-ms="2437" status="SKIP">
+        <test-method retried="true" signature="negativeTest()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" started-at="2023-09-25T14:14:21 PDT" name="negativeTest" finished-at="2023-09-25T14:14:24 PDT" duration-ms="2787" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Incorrect email or password. Extra] but found [Incorrect email or password.]]]>
+              <![CDATA[expected [Incorrect email or password. Extra] but found []]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password. Extra] but found [Incorrect email or password.]
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password. Extra] but found []
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -66,15 +66,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" started-at="2023-09-25T11:47:53 PDT" name="tearDown" finished-at="2023-09-25T11:47:53 PDT" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" started-at="2023-09-25T14:14:24 PDT" name="tearDown" finished-at="2023-09-25T14:14:24 PDT" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchURL()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" started-at="2023-09-25T11:47:53 PDT" name="launchURL" finished-at="2023-09-25T11:48:06 PDT" duration-ms="13174" status="PASS">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" started-at="2023-09-25T14:14:24 PDT" name="launchURL" finished-at="2023-09-25T14:14:38 PDT" duration-ms="13705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="negativeTest()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" started-at="2023-09-25T11:48:06 PDT" name="negativeTest" finished-at="2023-09-25T11:48:09 PDT" duration-ms="2341" status="FAIL">
+        <test-method signature="negativeTest()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" started-at="2023-09-25T14:14:38 PDT" name="negativeTest" finished-at="2023-09-25T14:14:40 PDT" duration-ms="2419" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Incorrect email or password. Extra] but found []]]>
@@ -126,17 +126,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" started-at="2023-09-25T11:48:09 PDT" name="tearDown" finished-at="2023-09-25T11:48:10 PDT" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eTesting.NegativeScenario@6fdbe764]" started-at="2023-09-25T14:14:41 PDT" name="tearDown" finished-at="2023-09-25T14:14:42 PDT" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- e2eTesting.NegativeScenario -->
       <class name="e2eTesting.EcommercePageFactoryTesting">
-        <test-method is-config="true" signature="launchURL()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T11:46:18 PDT" name="launchURL" finished-at="2023-09-25T11:46:34 PDT" duration-ms="15972" status="PASS">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T14:12:47 PDT" name="launchURL" finished-at="2023-09-25T14:13:06 PDT" duration-ms="18847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="test(java.util.HashMap)[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T11:46:34 PDT" name="test" data-provider="getData" finished-at="2023-09-25T11:46:49 PDT" duration-ms="14804" status="PASS">
+        <test-method signature="test(java.util.HashMap)[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T14:13:06 PDT" name="test" data-provider="getData" finished-at="2023-09-25T14:13:20 PDT" duration-ms="14626" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,15 +147,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T11:46:49 PDT" name="tearDown" finished-at="2023-09-25T11:46:49 PDT" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T14:13:20 PDT" name="tearDown" finished-at="2023-09-25T14:13:20 PDT" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchURL()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T11:46:49 PDT" name="launchURL" finished-at="2023-09-25T11:47:03 PDT" duration-ms="13744" status="PASS">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T14:13:20 PDT" name="launchURL" finished-at="2023-09-25T14:13:34 PDT" duration-ms="13622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="test(java.util.HashMap)[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T11:47:03 PDT" name="test" data-provider="getData" finished-at="2023-09-25T11:47:17 PDT" duration-ms="14271" status="PASS">
+        <test-method signature="test(java.util.HashMap)[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T14:13:34 PDT" name="test" data-provider="getData" finished-at="2023-09-25T14:13:48 PDT" duration-ms="14128" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,19 +166,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T11:47:17 PDT" name="tearDown" finished-at="2023-09-25T11:47:17 PDT" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T14:13:48 PDT" name="tearDown" finished-at="2023-09-25T14:13:48 PDT" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchURL()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T11:47:17 PDT" name="launchURL" finished-at="2023-09-25T11:47:29 PDT" duration-ms="11351" status="PASS">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T14:13:48 PDT" name="launchURL" finished-at="2023-09-25T14:14:00 PDT" duration-ms="11988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="orderTest()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T11:47:29 PDT" name="orderTest" finished-at="2023-09-25T11:47:37 PDT" depends-on-methods="e2eTesting.EcommercePageFactoryTesting.test" duration-ms="7783" status="PASS">
+        <test-method signature="orderTest()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T14:14:00 PDT" name="orderTest" finished-at="2023-09-25T14:14:08 PDT" depends-on-methods="e2eTesting.EcommercePageFactoryTesting.test" duration-ms="7716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T11:47:37 PDT" name="tearDown" finished-at="2023-09-25T11:47:37 PDT" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eTesting.EcommercePageFactoryTesting@428640fa]" started-at="2023-09-25T14:14:08 PDT" name="tearDown" finished-at="2023-09-25T14:14:08 PDT" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

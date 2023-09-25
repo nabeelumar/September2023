@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 113.0 s <<< FAILURE! -- in TestSuite
-e2eTesting.NegativeScenario.negativeTest -- Time elapsed: 3.193 s <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 116.7 s <<< FAILURE! -- in TestSuite
+e2eTesting.NegativeScenario.negativeTest -- Time elapsed: 3.377 s <<< FAILURE!
 java.lang.AssertionError: expected [Incorrect email or password. Extra] but found []
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)

@@ -17,6 +17,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterTest;
@@ -42,9 +43,14 @@ public class BaseTest {
 
 		String browser = System.getProperty("browser") != null ? System.getProperty("browser")
 				: prop.getProperty("browser");
-		if (browser.equalsIgnoreCase("chrome")) {
+		if (browser.contains("chrome")) {
+			ChromeOptions options = new ChromeOptions();
 
-			driver = new ChromeDriver();
+			if (browser.contains("headless")) {
+
+				options.addArguments("headless");
+			}
+			driver = new ChromeDriver(options);
 		} else if (browser.equalsIgnoreCase("edge")) {
 
 			driver = new EdgeDriver();
@@ -73,12 +79,13 @@ public class BaseTest {
 		return data;
 
 	}
-	
+
 	public String getScreenshot(WebDriver driver, String testCaseName) throws IOException {
-		
-		File src =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String destinationFile = System.getProperty("user.dir")+"/reports/screenshots/"+testCaseName+".png";
-		System.out.println("SCREENSHOT PATH ISSSSSSSS"+System.getProperty("user.dir")+"/reports/"+testCaseName+".png");
+
+		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		String destinationFile = System.getProperty("user.dir") + "/reports/screenshots/" + testCaseName + ".png";
+		System.out.println(
+				"SCREENSHOT PATH ISSSSSSSS" + System.getProperty("user.dir") + "/reports/" + testCaseName + ".png");
 		FileUtils.copyFile(src, new File(destinationFile));
 		return destinationFile;
 	}
